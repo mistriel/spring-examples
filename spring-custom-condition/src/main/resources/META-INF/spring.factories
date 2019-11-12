@@ -1,0 +1,7 @@
+
+
+org.springframework.boot.env.EnvironmentPostProcessor = com.gameofthrones.startersiemens.ProfileAutoDetectorEnvironmentPostProcessor
+
+org.springframework.context.ApplicationContextInitializer = com.gameofthrones.startersiemens.ProfileSentinelApplicationContextInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.gameofthrones.startersiemens.StarterConf
